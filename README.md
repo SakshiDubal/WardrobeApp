@@ -1,4 +1,5 @@
 **Wardrobe Inventory & Recommendation App**
+
 A smart wardrobe management system that lets users add clothing items, categorize them by occasion, type, and season, track stock quantities, and receive low-stock notifications via Gmail. Built for fashion tech enthusiasts and inventory-conscious users.
 
 🚀 Features
@@ -44,7 +45,7 @@ CREATE TABLE clothing_item (
 - 
 📂 GitLab Source
 To explore the source code, clone the repository:
-git clone https://gitlab.com/your-username/wardrobe-app.git
+https://github.com/SakshiDubal/WardrobeApp
 
 Replace your-username with your actual GitLab handle.
 

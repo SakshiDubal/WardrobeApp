@@ -14,7 +14,7 @@ A smart wardrobe management system that lets users add clothing items, categoriz
 - Email Notifications:
 - Sends Gmail alerts when item quantity falls below threshold.
 - Encourages restocking with direct links to preferred sources.
-- 
+  
 🛠️ Tech Stack
 Backend - Spring Boot, Hibernate, PostgreSQL
 API Design - RESTful endpoints with DTOs, validation, and JWT auth
@@ -37,7 +37,6 @@ CREATE TABLE clothing_item (
   metadata JSONB
 );
 
-
 🔔 Notification Logic
 - Triggered when quantity <= low_stock_threshold.
 - Sends Gmail alert using configured SMTP credentials.
@@ -47,15 +46,13 @@ CREATE TABLE clothing_item (
 To explore the source code, clone the repository:
 https://github.com/SakshiDubal/WardrobeApp
 
-Replace your-username with your actual GitLab handle.
-
 🧪 API Testing
 - Postman collection includes:
 - Auth token capture
 - Environment variables for base URL and credentials
 - CRUD operations for clothing items
 - Notification trigger simulation
-- 
+ 
 🧠 Developer Notes
 - Enum binding is case-insensitive.
 - Global exception handling ensures clean error responses.

@@ -41,7 +41,7 @@ CREATE TABLE clothing_item (
 - Triggered when quantity <= low_stock_threshold.
 - Sends Gmail alert using configured SMTP credentials.
 - Email includes item details and restock suggestion.
-- 
+  
 📂 GitLab Source
 To explore the source code, clone the repository:
 https://github.com/SakshiDubal/WardrobeApp
